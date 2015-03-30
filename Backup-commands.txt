@@ -1,0 +1,5 @@
+Backup DB:
+mysqldump -u «nombre del usuario de mysql» -p «nombre de la BD» > database.sql
+
+Restore Backup DB:
+mysql -u «nombre del usuario de mysql» -p «nombre de la BD» < database.sql
